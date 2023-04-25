@@ -1,0 +1,75 @@
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px,auto);
+    column-gap: 1em;
+    row-gap: 1em;
+    
+}
+
+.element1 {
+    background-color: rgb(180, 183, 185);
+    padding: 1em;
+    grid-row: 2/4;
+    grid-column: 2/3;
+    position: relative;
+    
+   
+}
+
+.element2 {
+    background-color: rgb(98, 123, 139);
+    padding: 1em;
+    position: relative;
+    grid-row: 2/4;
+    grid-column: 2/3;
+    justify-items: center;
+    
+}
+
+
+body {
+    background-image: url('https://img3.wallspic.com/previews/9/3/0/4/6/164039/164039-banner_de_contraccion_de_la_galaxia-contraccion_nerviosa-banner_web-streaming_de_medios_de_comunicacion-gamer-x750.jpg');
+    background-size: cover;
+}
+
+b {
+    color: #ffffff;
+}
+.grid > div:hover {
+    border: 2px solid rgb(5, 15, 26);
+} 
+
+.imagen1 {
+    position: relative;
+    display: flex;
+    height: 30vw;
+    width: -50vw;
+    justify-content:center;
+    
+}
+
+.imagen2 {
+    position: relative;
+    display: flex;
+    height: 100vw;
+    width: 90vw;
+    margin: auto;
+    justify-items: center;
+    
+
+}
+
+.Boton {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10%;
+    margin-left: 80%;
+
+}

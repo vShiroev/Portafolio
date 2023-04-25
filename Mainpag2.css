@@ -1,0 +1,59 @@
+body {
+    background-image:url(Fondo2.jpg);
+    background-size: cover;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: row;
+     
+}
+
+
+.grid2 img {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 29vw;
+    height: 29vw;
+}
+
+
+.b1 {
+    color: #ffffff;
+    font-size: 5em;
+    position: relative;
+ }
+
+.boton2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Boton1 {
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10%;
+    margin-left: 16%;
+    margin-top: 10%;
+}
+
+.Boton2 {
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+ 
